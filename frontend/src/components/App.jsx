@@ -7,7 +7,7 @@ import Peer from "peerjs";
 import axios from "axios";
 import "../css/App.css";
 const myPeer = new Peer();
-const socket = io("https://peercoderapi.herokuapp.com/");
+const socket = io("https://peer-coder.onrender.com/");
 const peers = {};
 
 class App extends Component {
